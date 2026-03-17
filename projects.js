@@ -13,8 +13,16 @@ const projects = [
     repo: "https://github.com/catfrommarss/-AI-Video-Prompt-Workshop",
     demo: ""
   },
-  ...Array.from({ length: 32 }, (_, i) => ({
-    id: i + 2,
+  {
+    id: 2,
+    name: "看海时刻",
+    description: "总有一刻，适合看海。结合天气、日落、云量与潮汐信息，帮你找到今天最适合去海边的时刻。",
+    status: "done",
+    repo: "https://github.com/catfrommarss/sea-time",
+    demo: ""
+  },
+  ...Array.from({ length: 31 }, (_, i) => ({
+    id: i + 3,
     name: "",
     description: "",
     status: "planned",
