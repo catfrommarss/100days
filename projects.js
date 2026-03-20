@@ -24,7 +24,7 @@ const projects = [
   {
     id: 3,
     name: "your's",
-    description: "每日心理治愈语录，受《蛤蟆先生去看心理医生》启发，白底衬线体极简风格。",
+    description: "-",
     status: "done",
     repo: "https://github.com/catfrommarss/heal-daily",
     demo: "https://catfrommarss.github.io/heal-daily/"
