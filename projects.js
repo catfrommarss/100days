@@ -8,7 +8,7 @@ const projects = [
   {
     id: 1,
     name: "AI Video Prompt Workshop",
-    description: "AI视频提示词工作台，从故事文本生成完整视频制作文档，支持角色圣经、分镜生成与Prompt导出。",
+    description: "AI视频分镜工具，从故事文本自动提取角色、生成Seedance视频prompt，支持角色库管理、参考图上传、对白/旁白/完整脚本导出。",
     status: "done",
     repo: "https://github.com/catfrommarss/-AI-Video-Prompt-Workshop",
     demo: ""
