@@ -29,8 +29,16 @@ const projects = [
     repo: "https://github.com/catfrommarss/heal-daily",
     demo: "https://catfrommarss.github.io/heal-daily/"
   },
-  ...Array.from({ length: 30 }, (_, i) => ({
-    id: i + 4,
+  {
+    id: 4,
+    name: "Mindshare Dashboard",
+    description: "加密货币心智份额可视化仪表盘，基于 Kaito 数据展示各币种的社交媒体关注度与趋势变化。",
+    status: "done",
+    repo: "https://github.com/catfrommarss/mindshare-dashboard",
+    demo: "https://mindshare-dashboard-three.vercel.app/"
+  },
+  ...Array.from({ length: 29 }, (_, i) => ({
+    id: i + 5,
     name: "",
     description: "",
     status: "planned",
