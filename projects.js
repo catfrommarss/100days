@@ -32,8 +32,8 @@ const projects = [
   {
     id: 4,
     name: "Mindshare Dashboard",
-    description: "加密货币心智份额可视化仪表盘，基于 Kaito 数据展示各币种的社交媒体关注度与趋势变化。",
-    status: "done",
+    description: "加密货币心智份额可视化仪表盘",
+    status: "wip",
     repo: "https://github.com/catfrommarss/mindshare-dashboard",
     demo: "https://mindshare-dashboard-three.vercel.app/"
   },
